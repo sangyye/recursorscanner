@@ -1,0 +1,7 @@
+recursorscanner <IP ADDRESS/CIDR MASK> <BANDWITH IN KBPS>
+
+example: 
+	recursorscanner 192.168.0.0/24 1000
+
+This would scan 192.168.0.0/24 for open DNS recursors at a rate of 1 Mbps.
+
