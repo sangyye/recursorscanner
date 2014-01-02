@@ -16,6 +16,7 @@ dns.o:
 
 clean:
 	rm -f *.o
+	rm recursorscanner
 
 install:
 	cp recursorscanner /usr/local/bin/recursorscanner
